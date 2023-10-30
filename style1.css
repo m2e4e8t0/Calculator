@@ -78,6 +78,7 @@ form input{
 }
 .row input:hover{
     background-color: #171b21;
+    box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.2), 3px 3px 8px rgba(255, 255, 255, 0.2), -3px 3px 8px rgba(255, 255, 255, 0.2), 3px -3px 8px rgba(255, 255, 255, 0.2);
 
 }
 .op{
