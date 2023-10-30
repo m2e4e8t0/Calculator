@@ -1,0 +1,91 @@
+
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Playpen Sans', cursive;
+
+
+}
+.Header{
+    background-color: #242a33;
+    height:15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+}
+.logo {
+    display: inline-block;
+    font-family: 'Playpen Sans', cursive;
+    background-color: #000000;
+    color: #33ffd8;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    font-weight: bolder;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 40px;
+    height: fit-content;
+}
+
+.container{
+    background-color: rgb(205, 231, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{ 
+    background-color: #242a33;
+    border-radius: 10px;
+    padding: 20px 10px;
+    height: 424px;
+}
+form input{
+    border:0;
+    outline:0;
+    height: 50px;
+    width: 50px;
+    margin: 10px ;
+    background-color: #242a33;
+    border-radius: 4px;
+    color: white ;
+    box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.1), 3px 3px 8px rgba(255, 255, 255, 0.1), -3px 3px 8px rgba(255, 255, 255, 0.1), 3px -3px 8px rgba(255, 255, 255, 0.1);
+
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+}
+.display input {
+    color: white;
+    text-align: right;
+    font-size: 35px;
+    width: 274px;
+    border: none;
+    box-shadow: none;
+    
+}
+.row input:hover{
+    background-color: #171b21;
+
+}
+.op{
+    color: aquamarine;
+}
+#eq{
+    width:124px;
+}
+input{
+    cursor: pointer;
+}

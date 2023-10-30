@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatease</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <div class="Header">
+        <div class="logo">Calculatease</div>
+      </div>
+<div class="container">
+    
+    <div class="calculator">
+        <form action="">
+            <div class="display">
+            <input type="text" name="tt" id="" >
+            </div>
+            <div class="row">
+                <input type="button" value="AC" class="op" onclick="tt.value=''" >
+                <input type="button" value="DE"class="op" onclick="tt.value=tt.value.toString().slice(0,-1)">
+                <input type="button" value="."class="op" onclick="tt.value+='.'">
+                <input type="button" value="/"class="op"onclick="tt.value+='/'">
+            </div>
+            <div class="row">
+                <input type="button" value="7" onclick="tt.value +='7'">
+                <input type="button" value="8"onclick="tt.value+='8'">
+                <input type="button" value="9"onclick="tt.value+='9'">
+                <input type="button" value="*"class="op"onclick="tt.value+='*'">
+            </div>
+            <div class="row">
+                <input type="button" value="4"onclick="tt.value+='4'">
+                <input type="button" value="5"onclick="tt.value+='5'">
+                <input type="button" value="6"onclick="tt.value+='6'">
+                <input type="button" value="+"class="op"onclick="tt.value+='+'">
+            </div>
+            <div class="row">
+                <input type="button" value="1"onclick="tt.value+='1'">
+                <input type="button" value="2"onclick="tt.value+='2'">
+                <input type="button" value="3"onclick="tt.value+='3'">
+                <input type="button" value="-"class="op"onclick="tt.value+='-'">
+            </div>
+            <div class="row">
+                <input type="button" value="0"onclick="tt.value+='0'">
+                <input type="button" value="00"onclick="tt.value+='00'">
+                <input type="button" value="="class="op" id="eq" onclick="tt.value=eval(tt.value)">
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+</body>
+</html>
