@@ -97,3 +97,74 @@ input{
     background-color: #242a33;
     height: 15vh;
 }
+@media only screen and (max-width: 325px){
+    form input{
+        border:0;
+        outline:0;
+        height: 40px;
+        width: 40px;
+        margin: 10px ;
+        background-color: #242a33;
+        border-radius: 4px;
+        color: white ;
+        box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.1), 3px 3px 8px rgba(255, 255, 255, 0.1), -3px 3px 8px rgba(255, 255, 255, 0.1), 3px -3px 8px rgba(255, 255, 255, 0.1);
+    
+    }
+    #eq{
+        width:107px;
+    }
+    .calculator{ 
+        background-color: #242a33;
+        border-radius: 10px;
+        padding: 10px  5px;
+        height: 400px;
+        width: 258px;
+    }
+    .display input {
+        color: white;
+        text-align: right;
+        font-size: 35px;
+        width: 250px;
+        border: none;
+        box-shadow: none;
+        
+    }
+
+}
+@media only screen and (max-width: 266px){
+    form input{
+        border:0;
+        outline:0;
+        height: 30px;
+        width: 30px;
+        margin: 5px ;
+        background-color: #242a33;
+        border-radius: 4px;
+        color: white ;
+        box-shadow: -3px -3px 8px rgba(255, 255, 255, 0.1), 3px 3px 8px rgba(255, 255, 255, 0.1), -3px 3px 8px rgba(255, 255, 255, 0.1), 3px -3px 8px rgba(255, 255, 255, 0.1);
+    
+    }
+    #eq{
+        width:75px;
+    }
+    .calculator{ 
+        background-color: #242a33;
+        border-radius: 10px;
+        padding: 10px  5px;
+        height: 250px;
+        width: 175px;
+    }
+    .display input {
+        color: white;
+        text-align: right;
+        font-size: 35px;
+        width: 175px;
+        border: none;
+        box-shadow: none;
+        
+    }
+    .logo{
+        font-size: 20px;
+    }
+
+}

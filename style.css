@@ -97,3 +97,14 @@ div .heading{
     background-color: #242a33;
     height: 15vh;
 }
+/* media queries */
+@media only screen and (max-width: 216px){
+    .logo{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 280px){
+    .Copyright{
+        font-size: 10px;
+    }
+}
