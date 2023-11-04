@@ -8,8 +8,50 @@
 
 
 }
+/* styling redirector */
+a{
+    color: #33ffd8;
+}
+
+ .redirect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #affef2;
+ }
+ .btn{
+    background-color: rgb(0, 0, 0);
+   
+    text-align: center;
+    width: 130px;
+    border: 2px solid rgb(255, 255, 255) ;
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.54) ;
+
+ } 
+ .btn{
+    animation-name: border;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+ /* border animation*/
+ @keyframes border {
+    from {
+        border : 2px solid #242a33
+    }
+    to{
+        border: 2px solid white;
+    }
+ }
+ .btn :hover {
+    color: #37ff94;
+ }
 
 
+/*styling header*/
+/* styling logo*/
 .logo {
     display: inline-block;
     font-family: 'Playpen Sans', cursive;
@@ -38,45 +80,7 @@
     justify-content: center;
     align-items : center;
 }
-.info{
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
-    background-color: rgb(205, 231, 255);
-  
-    
-}
-.vision{
-margin: 4px;
-text-align: center;
-background-color: #3a4452b5;
-width: 25vw;
-border: 4px solid rgb(0, 0, 0);
-border-radius: 30px;
-padding: 20px;
-}
-.whyus{
-margin: 4px;
-text-align: center;
-background-color: #3a4452b5;
-width: 25vw;
-border: 4px solid rgb(0, 0, 0);
-border-radius: 30px;
-padding: 20px;
 
-
-
-}
-.mission{
-margin: 4px;
-text-align: center;
-background-color: #3a4452b5;
-width: 25vw;
- border: 4px solid rgb(0, 0, 0);
-    border-radius: 30px;
-    /* height: fit-content; */
-    padding: 20px;
-}
 div .heading{
     display: flex;
     margin: 2PX ;
@@ -86,33 +90,7 @@ div .heading{
     font-weight: bolder;
 
 }
-.redirect{
-    display: flex;
-    text-align: center;
-    
-    align-items: center;
-    height:10vh ;
-    flex-direction: column;
-    color: white;
-    background-color: #242a33;
-
-
-}
-
-.instructions{
- margin: 4px;
-}
-.redirect .logo {
-    width: fit-content;
-    height: fit-content;
-    font-size: 20px;
-    background-color: black;
-}
-.redirect .logo:hover{
-   margin: 0px;
-   background-color: #464646;
-    font-size: 25px;
-}
+/* footer styling */
 .Copyright{text-align: center;
     color: white;
     padding: 10px;

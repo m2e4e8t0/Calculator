@@ -4,6 +4,7 @@
     padding: 0;
     text-decoration: none;
     font-family: 'Playpen Sans', cursive;
+    font-weight: lighter;
 
 
 }
@@ -37,7 +38,7 @@
 }
 
 .container{
-    background-color: rgb(205, 231, 255);
+    background-color: #affef2;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -89,4 +90,10 @@ form input{
 }
 input{
     cursor: pointer;
+}
+.Copyright{text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: #242a33;
+    height: 15vh;
 }
